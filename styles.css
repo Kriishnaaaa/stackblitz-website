@@ -1,0 +1,108 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set basic styles for body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Banner and Header */
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #0044cc;
+  color: #fff;
+}
+
+header img.logo {
+  height: 80px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 1.8em;
+  margin: 10px 0;
+}
+
+header p {
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+/* Introduction Section */
+.introduction {
+  background-color: #e6f7ff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  border-left: 5px solid #0044cc;
+}
+
+.introduction p {
+  margin-bottom: 10px;
+}
+
+/* Section Headers */
+h2 {
+  color: #0044cc;
+  margin-top: 25px;
+  font-size: 1.5em;
+  border-bottom: 2px solid #0044cc;
+  padding-bottom: 5px;
+}
+
+/* General Text */
+p {
+  margin: 10px 0;
+  font-size: 1em;
+}
+
+/* Code blocks (preformatted text) */
+pre {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+  line-height: 1.5;
+  overflow-x: auto;
+  color: #d63384;
+  margin-top: 10px;
+}
+
+/* Spacing between sections */
+.section-1,
+.section-2,
+.third-section {
+  margin-top: 20px;
+}
+
+/* Footer Text */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.8em;
+  color: #555;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  pre {
+    font-size: 0.8em;
+  }
+}
